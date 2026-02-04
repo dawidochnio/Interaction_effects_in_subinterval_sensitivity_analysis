@@ -627,15 +627,17 @@ print('...')
 y_si, yi_si, y_int, y_int_bounds = SSI_subinterval_combined(X0,n,fun_product,outputs=True)
 print(f'Sensitivity indices for all variables in first-order: {y_si}')
 print(f'Inflation indices for all variables: {yi_si}')
-print(f'Subinterval enclosure bounds for all variables: {y_int_infl_bounds}')
+print(f'Subinterval enclosure bounds for all variables: {y_int_bounds}')
 ```
 
     Function bounds with full interval range for all variables: [-0.0,8.0]
     ...
     Sensitivity indices for all variables in first-order: [0.245   0.245   0.245   0.55125]
     Inflation indices for all variables: [0. 0. 0. 0.]
-    Subinterval enclosure bounds for all variables: [3.96,8.04]
-    [2.0,10.0]
+    Subinterval enclosure bounds for all variables: [-0.0,8.0]
+    [-0.0,8.0]
+    [-0.0,8.0]
+    [-0.0,8.0]
     
 
 
